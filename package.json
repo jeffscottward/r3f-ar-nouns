@@ -1,0 +1,44 @@
+{
+  "name": "r3f-ar-nouns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffscottward/r3f-ar-nouns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffscottward/r3f-ar-nouns/issues"
+  },
+  "homepage": "https://github.com/jeffscottward/r3f-ar-nouns#readme",
+  "dependencies": {
+    "@react-three/drei": "^7.6.1",
+    "@react-three/fiber": "^7.0.6",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "three": "^0.132.2",
+    "three-stdlib": "^2.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

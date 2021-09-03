@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
-import { getKeyByValue, glassesPosition, headNames } from 'attributes';
+import { getKeyByValue, glassesPosition, headNames } from '../../attributes';
 
 const Crab = (props) => {
   const group = useRef();

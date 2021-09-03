@@ -5,7 +5,7 @@ import {
   glassesPosition,
   headAttributes,
   headNames,
-} from 'attributes';
+} from '../../attributes';
 
 const Cloud = (props) => {
   const group = useRef();

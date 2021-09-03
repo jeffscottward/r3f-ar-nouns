@@ -18,8 +18,8 @@ import {
   useGLTF,
 } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import RabbitModel from "RabbitModel";
-import CrabModel from "CrabTest";
+import RabbitModel from "./RabbitModel";
+import CrabModel from "./CrabTest";
 import {
   Button,
   Col,
@@ -30,20 +30,20 @@ import {
   Row,
 } from "react-bootstrap";
 import logo from "./assets/nouns-logo.svg";
-import useReflector from "./shaders/useReflector";
+// import useReflector from "./shaders/useReflector";
 import "./shaders/materials/ReflectorMaterial";
-import Svg from "./assets/World/Svg";
-import NounsLogo from "NounsLogo";
+// import Svg from "./assets/World/Svg";
+import NounsLogo from "./NounsLogo";
 import { Water } from "three-stdlib";
-import ProgressLoader from "Loader";
-import { slide as Menu } from "react-burger-menu";
-import Bonsai from "assets/FullBodyNouns/Bonsai";
-import Cloud from "assets/FullBodyNouns/Cloud";
-import Computer from "assets/FullBodyNouns/Computer";
-import Crab from "assets/FullBodyNouns/Crab";
-import Mixer from "assets/FullBodyNouns/Mixer";
-import Pirate from "assets/FullBodyNouns/Pirate";
-import Rabbit from "assets/FullBodyNouns/Rabbit";
+import ProgressLoader from "./Loader";
+// import { slide as Menu } from "react-burger-menu";
+import Bonsai from "./assets/FullBodyNouns/Bonsai";
+import Cloud from "./assets/FullBodyNouns/Cloud";
+import Computer from "./assets/FullBodyNouns/Computer";
+import Crab from "./assets/FullBodyNouns/Crab";
+import Mixer from "./assets/FullBodyNouns/Mixer";
+import Pirate from "./assets/FullBodyNouns/Pirate";
+import Rabbit from "./assets/FullBodyNouns/Rabbit";
 import {
   bodyAttributes,
   glassesAttributes,
@@ -51,8 +51,8 @@ import {
   pantsAttributes,
   shoesAttributes,
   environmentAttributes,
-} from "attributes";
-import Shark from "assets/FullBodyNouns/Shark";
+} from "./attributes";
+import Shark from "./assets/FullBodyNouns/Shark";
 import { TextureLoader } from "three";
 
 extend({ Water });
@@ -361,9 +361,9 @@ const NounCanvas = (props) => {
                   value={head}
                   onChange={(e) => setHead(e.target.value)}
                   className="attribute-select-box"
-                  // name="cars"
-                  // id="cars"
-                  // form="carform"
+                // name="cars"
+                // id="cars"
+                // form="carform"
                 >
                   {headAttributes.map((arrayValue) => (
                     <option key={arrayValue.value} value={arrayValue.value}>
