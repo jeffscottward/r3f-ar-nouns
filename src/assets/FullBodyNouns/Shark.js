@@ -5,7 +5,7 @@ import {
   glassesPosition,
   headAttributes,
   headNames,
-} from '../../attributes';
+} from '../../constants/attributes';
 
 const Shark = (props) => {
   const group = useRef();

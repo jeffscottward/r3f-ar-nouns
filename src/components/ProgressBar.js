@@ -1,7 +1,7 @@
 import { Html, useProgress } from '@react-three/drei';
 import { ProgressBar } from 'react-bootstrap';
 
-const ProgressLoader = () => {
+const ProgressBarLoader = () => {
   const { progress } = useProgress();
   return (
     <Html center>
@@ -36,4 +36,4 @@ const ProgressLoader = () => {
   );
 };
 
-export default ProgressLoader;
+export default ProgressBarLoader;
